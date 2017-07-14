@@ -14,8 +14,6 @@ $pdo = db_connect();
 	<link rel="stylesheet" type="text/css" href="./style/main.css">
 	<script src="./js/jquery-3.1.1.min.js"></script>
 
-
-
 </head>
 <body>
 <?php
