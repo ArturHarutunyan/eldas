@@ -19,6 +19,7 @@ $pdo = db_connect();
 <?php
 
 
+
 if (isset($_POST['name'])) {
 			$sql = "INSERT INTO `result`(`pupil_name`) VALUES (:name)";
 				$res = $pdo->prepare($sql);
